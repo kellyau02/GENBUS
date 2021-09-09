@@ -1,0 +1,117 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bt_stock_ao_6
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-01 19:20+0000\n"
+"PO-Revision-Date: 2021-09-01 19:20+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: bt_stock_ao_6
+#: model:ir.model.fields,field_description:bt_stock_ao_6.field_bt_product_brand__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: bt_stock_ao_6
+#: model:ir.model,name:bt_stock_ao_6.model_bt_product_brand
+#: model:ir.model.fields,field_description:bt_stock_ao_6.field_bt_product_brand__brand
+#: model:ir.model.fields,field_description:bt_stock_ao_6.field_product_product__brand
+#: model:ir.model.fields,field_description:bt_stock_ao_6.field_product_template__brand
+#: model:ir.ui.menu,name:bt_stock_ao_6.submenu_bt_product_brand
+#: model_terms:ir.ui.view,arch_db:bt_stock_ao_6.view_bt_product_brand_search
+#: model_terms:ir.ui.view,arch_db:bt_stock_ao_6.view_bt_product_brand_tree
+#: model_terms:ir.ui.view,arch_db:bt_stock_ao_6.view_form_bt_product_brand
+#: model_terms:ir.ui.view,arch_db:bt_stock_ao_6.view_product_search_inherited
+msgid "Brand"
+msgstr "Marca"
+
+#. module: bt_stock_ao_6
+#: model:ir.model.fields,field_description:bt_stock_ao_6.field_bt_product_brand__company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: bt_stock_ao_6
+#: model:ir.model.fields,field_description:bt_stock_ao_6.field_bt_product_brand__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: bt_stock_ao_6
+#: model:ir.model.fields,field_description:bt_stock_ao_6.field_bt_product_brand__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: bt_stock_ao_6
+#: model:ir.model.fields,field_description:bt_stock_ao_6.field_bt_product_brand__display_name
+#: model:ir.model.fields,field_description:bt_stock_ao_6.field_product_template__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: bt_stock_ao_6
+#: model_terms:ir.ui.view,arch_db:bt_stock_ao_6.view_bt_product_brand_search
+#: model_terms:ir.ui.view,arch_db:bt_stock_ao_6.view_product_search_inherited
+msgid "Group By"
+msgstr ""
+
+#. module: bt_stock_ao_6
+#: model:ir.model.fields,field_description:bt_stock_ao_6.field_bt_product_brand__id
+#: model:ir.model.fields,field_description:bt_stock_ao_6.field_product_template__id
+msgid "ID"
+msgstr ""
+
+#. module: bt_stock_ao_6
+#: model:ir.model.fields,field_description:bt_stock_ao_6.field_bt_product_brand____last_update
+#: model:ir.model.fields,field_description:bt_stock_ao_6.field_product_template____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: bt_stock_ao_6
+#: model:ir.model.fields,field_description:bt_stock_ao_6.field_bt_product_brand__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: bt_stock_ao_6
+#: model:ir.model.fields,field_description:bt_stock_ao_6.field_bt_product_brand__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: bt_stock_ao_6
+#: model_terms:ir.actions.act_window,help:bt_stock_ao_6.action_bt_product_brand
+msgid "No data yet!"
+msgstr ""
+
+#. module: bt_stock_ao_6
+#: model:ir.model.fields,field_description:bt_stock_ao_6.field_product_product__part_num
+#: model:ir.model.fields,field_description:bt_stock_ao_6.field_product_template__part_num
+#: model_terms:ir.ui.view,arch_db:bt_stock_ao_6.view_product_search_inherited
+msgid "Part num"
+msgstr "Número de parte"
+
+#. module: bt_stock_ao_6
+#: model:ir.model,name:bt_stock_ao_6.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de producto"
+
+#. module: bt_stock_ao_6
+#: model_terms:ir.actions.act_window,help:bt_stock_ao_6.action_bt_product_brand
+msgid "Start scheduling activities on your opportunities"
+msgstr ""
+
+#. module: bt_stock_ao_6
+#: model:ir.model.constraint,message:bt_stock_ao_6.constraint_product_template_field_unique
+msgid "This part number already exists - Enter another, it must be unique."
+msgstr ""
+
+#. module: bt_stock_ao_6
+#: model:ir.actions.act_window,name:bt_stock_ao_6.action_bt_product_brand
+#: model_terms:ir.ui.view,arch_db:bt_stock_ao_6.view_bt_product_brand_search
+#: model_terms:ir.ui.view,arch_db:bt_stock_ao_6.view_bt_product_brand_tree
+msgid "brand"
+msgstr "Marca"

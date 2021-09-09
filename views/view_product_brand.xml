@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="view_form_bt_product_brand" model="ir.ui.view">
+        <field name="name">bt.product.brand.form</field>
+        <field name="model">bt.product.brand</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <group>
+                        <field name="brand" string="Brand"/>
+                        <field name="active" widget="boolean_toggle"/>
+                    </group>
+                </group>
+            </form>
+        </field>
+    </record>
+
+
+    <record id="view_bt_product_brand_tree" model="ir.ui.view">
+        <field name="name">bt.product.brand.tree</field>
+        <field name="model">bt.product.brand</field>
+        <field name="arch" type="xml">
+            <tree string="brand">
+                <field name="brand" string="Brand"/>
+                <field name="active" widget="boolean_toggle"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_bt_product_brand_search" model="ir.ui.view">
+        <field name="name">bt.product.brand.search</field>
+        <field name="model">bt.product.brand</field>
+        <field name="arch" type="xml">
+             <search string="brand">
+                <field name="brand"/>
+                <group expand="1" string="Group By">
+                    <filter string="Brand" name="brand" context="{'group_by': 'brand'}"/>
+                    <filter string="Brand" name="brand"/>
+                </group>
+             </search>
+        </field>
+    </record>
+
+    <record id="action_bt_product_brand" model="ir.actions.act_window">
+        <field name="name">brand</field>
+        <field name="res_model">bt.product.brand</field>
+        <field name="view_mode">tree,form,search</field>
+        <field name="context">{}</field>
+            <field name="domain">[]</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    No data yet!
+                </p><p>
+                    Start scheduling activities on your opportunities
+                </p>
+        </field>
+    </record>
+
+    <menuitem
+        id="submenu_bt_product_brand"
+        name="Brand"
+        parent="stock.menu_stock_inventory_control"
+        action="action_bt_product_brand"
+        sequence="2"/>
+</odoo>
